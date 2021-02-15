@@ -7,5 +7,44 @@
 }
 
 html, body {
-    font-family: 'Commissioner', sans-serif;
+    font-family: 'Commissioner', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-hero {
+    height: 45vh;
+    width: 100vw;
+    background-image: url(../img/image-hero-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 40px;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 35px;
+    list-style: none;
+    font-size: 70%;
+    font-weight: 500;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
 }
