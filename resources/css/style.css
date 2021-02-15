@@ -1,132 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    font-family: 'Commissioner', 'Arial', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+html,
+body {
+  font-family: "Commissioner", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 body {
-    background-color: rgba(240, 240, 240, 0.945)
+  background-color: rgba(240, 240, 240, 0.945);
+}
+
+input, textarea, button {
+    font-family: inherit;
 }
 
 .section-hero {
-    height: 45vh;
-    width: 100vw;
-    background-image: url(../img/image-hero-desktop.jpg);
-    background-size: cover;
-    background-position: center;
+  height: 45vh;
+  width: 100vw;
+  background-image: url(../img/image-hero-desktop.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .row {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p {
-    color: hsl(0, 0%, 48%);
-    font-size: 80%;
-    margin-bottom: 15px;
+  color: hsl(0, 0%, 48%);
+  font-size: 80%;
+  margin-bottom: 15px;
 }
 
 .logo {
-    float: left;
-    margin-top: 40px;
+  float: left;
+  margin-top: 40px;
 }
 
 .main-nav {
-    float: right;
-    margin-top: 35px;
-    list-style: none;
-    font-size: 70%;
-    font-weight: 500;
+  float: right;
+  margin-top: 35px;
+  list-style: none;
+  font-size: 70%;
+  font-weight: 500;
 }
 
 .main-nav li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .box {
-    width: 60%;
-    text-align: center;
-    border: none;
-    background-color: #fff;
-    border-radius: 0.5rem;
-    padding: 20px 50px;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+  width: 60%;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 20px 50px;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
 .current-project {
-    margin-top: -3%;
+  position: relative;
+  top: -100px;
+  padding-top: 0;
 }
 
 .mastercraft-logo {
-    margin-top: -30%;
+    position: relative;
+    height: 50px;
+    top: -25px;
 }
 
 button {
-    display: inline-block;
-    width: 10rem;
-    height: 2rem;
-    margin: 20px 15px;
-    text-align: center;
-    border: none;
-    border-radius: 1rem;
-    padding: 10px 15px;
-    color: #fff;
-    font-size: 80%;
-    font-weight: 500;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  width: 10rem;
+  height: 2.5rem;
+  margin: 20px 15px;
+  text-align: center;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 80%;
+  font-weight: 500;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
 }
 
 .button-primary {
-    background-color: hsl(176, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
 }
 
 .button-icon {
-    background-color: rgb(243, 243, 243);
-    color:hsl(176, 72%, 28%)
+  background-color: rgb(243, 243, 243);
+  color: hsl(176, 72%, 28%);
+  padding: 0;
+  text-align: left;
+}
+
+.button-icon img {
+    height: 2.5rem;
+    color:hsl(176, 72%, 28%);
+    vertical-align: middle;
+    line-height: 120%;
+    margin-top: -3px;
+}
+
+.button-icon .button-text {
+    display: inline-block;
+    margin-left: 15px;
 }
 
 .current-project .button-left {
-    float: left;
+  float: left;
 }
 
 .current-project .button-right {
-    float: right;
+  float: right;
 }
 
 .clearfix {
-    zoom: 1;
-  }
-  .clearfix:after {
-    content: "";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-  }
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
