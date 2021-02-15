@@ -12,6 +12,10 @@ html, body {
     font-weight: 400;
 }
 
+body {
+    background-color: rgba(240, 240, 240, 0.945)
+}
+
 .section-hero {
     height: 45vh;
     width: 100vw;
@@ -23,6 +27,17 @@ html, body {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: hsl(0, 0%, 48%);
+    font-size: 80%;
+    margin-bottom: 15px;
 }
 
 .logo {
@@ -48,3 +63,70 @@ html, body {
     color: #fff;
     text-decoration: none;
 }
+
+.box {
+    width: 60%;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 20px 50px;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.current-project {
+    margin-top: -3%;
+}
+
+.mastercraft-logo {
+    margin-top: -30%;
+}
+
+button {
+    display: inline-block;
+    width: 10rem;
+    height: 2rem;
+    margin: 20px 15px;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 80%;
+    font-weight: 500;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.button-primary {
+    background-color: hsl(176, 72%, 28%);
+}
+
+.button-icon {
+    background-color: rgb(243, 243, 243);
+    color:hsl(176, 72%, 28%)
+}
+
+.current-project .button-left {
+    float: left;
+}
+
+.current-project .button-right {
+    float: right;
+}
+
+.clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
