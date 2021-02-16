@@ -192,13 +192,28 @@ button {
   font-weight: 500;
 }
 
+.internal-box .box-footer {
+  position: relative;
+  padding: 0;
+}
+
+.internal-box .box-footer .button-primary {
+  margin: 0
+}
+
+.internal-box .box-footer .remaining {
+  font-size: 200%;
+  font-weight: bold;
+  color:hsl(0, 0%, 0%);
+}
+
 .internal-box .box-footer-left {
   float: left;
+  margin: 0;
 }
 
 .internal-box .box-footer-left p {
-  position: relative;
-  top: 50px;
+  margin-top: 50%;
 }
 
 .internal-box .box-footer-right {
