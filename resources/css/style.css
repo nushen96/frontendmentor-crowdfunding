@@ -188,7 +188,7 @@ button {
 
 .internal-box .box-header-right {
   float: right;
-  color:hsl(176, 50%, 47%);
+  color:hsl(176, 72%, 28%);
   font-weight: 500;
 }
 
@@ -219,3 +219,31 @@ button {
 .internal-box .box-footer-right {
   float: right;
 }
+
+.disabled-box {
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+.disabled-box .box-title {
+  color:hsl(0, 0%, 48%)
+}
+
+.disabled-box .box-content {
+  color: hsl(0, 0%, 69%)
+}
+
+.disabled-box .box-header-right {
+  color:hsl(176, 61%, 48%);
+}
+
+.disabled-box .box-footer .remaining {
+  color:hsl(0, 0%, 48%)
+}
+
+.disabled-box button,
+.disabled-box button:hover,
+.disabled-box button:active {
+  background-color: hsl(0, 0%, 48%);
+  cursor:default;
+}
+
