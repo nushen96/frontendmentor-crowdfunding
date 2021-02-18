@@ -247,3 +247,57 @@ button {
   cursor:default;
 }
 
+.stats-box {
+  text-align: start;
+  margin-bottom: 15px;
+  position: relative;
+  top: -75px;
+}
+
+.stats-box .stats-row {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stats-box .stats-row .stat-element {
+  display: inline-block;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.stat-element .stat-separator {
+  border-left: 1px solid hsla(0, 0%, 81%, 0.829);
+  height: 80%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.vertical-divider {
+  border-left:2px solid #000;
+  height: 80%;
+  margin-top: 10%;
+}
+
+.loading-bar {
+  height: 1rem;
+  border: 1px solid transparent;
+  margin-top: 1rem;
+  background-color: hsla(0, 0%, 81%, 0.829);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.loaded {
+  height: 100%;
+  width: 75%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: hsl(176, 50%, 47%)
+}
